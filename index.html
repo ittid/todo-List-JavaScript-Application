@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator javascript</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <span class="brand">📝</span>
+      <h1>ToDo List app</h1>
+      <p>
+        A Simple ToDo List app Built For Fun by:
+        <a href="https://github.com/ittid" target="_blank">@ittid</a>
+      </p>
+    </main>
+    <div class="todo_grid">
+      <form class="form" id="form">
+        <input
+          type="text"
+          required
+          data-input
+          placeholder="Type Your Dummy Task For Track it"
+        />
+        <button data-submit>Add To The Tracker</button>
+      </form>
+      <div class="output">
+        <h1>Your Tasks:</h1>
+        <div class="clear">
+          <button data-clear>Clear All</button>
+        </div>
+        <div class="task">
+          <label class="container">
+            testing task
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
