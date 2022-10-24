@@ -28,7 +28,7 @@ addEventListener("DOMContentLoaded", function () {
   });
 
   clearAll.addEventListener("click", function () {
-    confirm("Do You Want To Clear All This Taskes.?");
+    confirm("You are goin to clear all the tasks.?");
     output.innerHTML = "";
   });
 });
